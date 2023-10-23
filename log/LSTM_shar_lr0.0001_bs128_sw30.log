@@ -1,0 +1,219 @@
+Namespace(cuda=0, rep=2, batch_size=128, n_epoch=30, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='LSTM', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='LSTM_shar_lr0.0001_bs128_sw30')
+
+Epoch : 0
+Train Loss     : 2.8159	 | 	Train Accuracy     : 7.3552
+
+Val Loss     : 2.8154	 | 	Val Accuracy     : 5.0190
+
+
+Epoch : 1
+Train Loss     : 2.7444	 | 	Train Accuracy     : 9.1654
+
+Val Loss     : 2.7791	 | 	Val Accuracy     : 5.0951
+
+
+Epoch : 2
+Train Loss     : 2.6474	 | 	Train Accuracy     : 12.9383
+
+Val Loss     : 2.6912	 | 	Val Accuracy     : 16.7300
+
+
+Epoch : 3
+Train Loss     : 2.5718	 | 	Train Accuracy     : 13.7767
+
+Val Loss     : 2.5188	 | 	Val Accuracy     : 20.4563
+
+
+Epoch : 4
+Train Loss     : 2.4754	 | 	Train Accuracy     : 16.5968
+
+Val Loss     : 2.3518	 | 	Val Accuracy     : 20.9125
+
+
+Epoch : 5
+Train Loss     : 2.4041	 | 	Train Accuracy     : 18.5213
+
+Val Loss     : 2.2560	 | 	Val Accuracy     : 16.6540
+
+
+Epoch : 6
+Train Loss     : 2.3414	 | 	Train Accuracy     : 20.6364
+
+Val Loss     : 2.2040	 | 	Val Accuracy     : 25.8555
+
+
+Epoch : 7
+Train Loss     : 2.2590	 | 	Train Accuracy     : 22.5800
+
+Val Loss     : 2.1396	 | 	Val Accuracy     : 32.0152
+
+
+Epoch : 8
+Train Loss     : 2.2125	 | 	Train Accuracy     : 22.8277
+
+Val Loss     : 2.0790	 | 	Val Accuracy     : 27.2243
+
+
+Epoch : 9
+Train Loss     : 2.1547	 | 	Train Accuracy     : 24.8095
+
+Val Loss     : 2.0168	 | 	Val Accuracy     : 29.9620
+
+
+Epoch : 10
+Train Loss     : 2.0941	 | 	Train Accuracy     : 25.6669
+
+Val Loss     : 1.9753	 | 	Val Accuracy     : 28.8973
+
+
+Epoch : 11
+Train Loss     : 2.1017	 | 	Train Accuracy     : 25.5335
+
+Val Loss     : 1.9997	 | 	Val Accuracy     : 29.2015
+
+
+Epoch : 12
+Train Loss     : 2.0205	 | 	Train Accuracy     : 28.6395
+
+Val Loss     : 1.9341	 | 	Val Accuracy     : 30.7985
+
+
+Epoch : 13
+Train Loss     : 1.9518	 | 	Train Accuracy     : 30.6974
+
+Val Loss     : 1.9047	 | 	Val Accuracy     : 32.3194
+
+
+Epoch : 14
+Train Loss     : 1.9436	 | 	Train Accuracy     : 29.7066
+
+Val Loss     : 1.8909	 | 	Val Accuracy     : 32.5475
+
+
+Epoch : 15
+Train Loss     : 1.8851	 | 	Train Accuracy     : 33.1745
+
+Val Loss     : 1.8338	 | 	Val Accuracy     : 32.8517
+
+
+Epoch : 16
+Train Loss     : 1.8653	 | 	Train Accuracy     : 31.7835
+
+Val Loss     : 1.8196	 | 	Val Accuracy     : 31.7110
+
+
+Epoch : 17
+Train Loss     : 1.8319	 | 	Train Accuracy     : 33.7652
+
+Val Loss     : 1.7881	 | 	Val Accuracy     : 32.8517
+
+
+Epoch : 18
+Train Loss     : 1.7990	 | 	Train Accuracy     : 35.1181
+
+Val Loss     : 1.7673	 | 	Val Accuracy     : 33.6122
+
+
+Epoch : 19
+Train Loss     : 1.7706	 | 	Train Accuracy     : 36.8521
+
+Val Loss     : 1.7701	 | 	Val Accuracy     : 36.0456
+
+
+Epoch : 20
+Train Loss     : 1.7524	 | 	Train Accuracy     : 37.2713
+
+Val Loss     : 1.7312	 | 	Val Accuracy     : 34.5247
+
+
+Epoch : 21
+Train Loss     : 1.7252	 | 	Train Accuracy     : 37.6905
+
+Val Loss     : 1.7189	 | 	Val Accuracy     : 34.4487
+
+
+Epoch : 22
+Train Loss     : 1.7102	 | 	Train Accuracy     : 39.2340
+
+Val Loss     : 1.7037	 | 	Val Accuracy     : 38.4030
+
+
+Epoch : 23
+Train Loss     : 1.6997	 | 	Train Accuracy     : 40.0724
+
+Val Loss     : 1.6980	 | 	Val Accuracy     : 37.4905
+
+
+Epoch : 24
+Train Loss     : 1.6628	 | 	Train Accuracy     : 41.9970
+
+Val Loss     : 1.6795	 | 	Val Accuracy     : 36.5779
+
+
+Epoch : 25
+Train Loss     : 1.6634	 | 	Train Accuracy     : 40.2630
+
+Val Loss     : 1.6598	 | 	Val Accuracy     : 41.0646
+
+
+Epoch : 26
+Train Loss     : 1.6307	 | 	Train Accuracy     : 42.6258
+
+Val Loss     : 1.6580	 | 	Val Accuracy     : 39.2395
+
+
+Epoch : 27
+Train Loss     : 1.6062	 | 	Train Accuracy     : 41.8826
+
+Val Loss     : 1.6389	 | 	Val Accuracy     : 45.3992
+
+
+Epoch : 28
+Train Loss     : 1.5942	 | 	Train Accuracy     : 44.7599
+
+Val Loss     : 1.6165	 | 	Val Accuracy     : 43.1179
+
+
+Epoch : 29
+Train Loss     : 1.5973	 | 	Train Accuracy     : 44.0549
+
+Val Loss     : 1.6273	 | 	Val Accuracy     : 41.9011
+
+Test Loss     : 1.6473	 | 	Test Accuracy     : 41.6920
+
+tensor([[ 2.,  0.,  5.,  4.,  1.,  1.,  2.,  0.,  1.,  0.,  0.,  1.,  1.,  1.,
+          2.,  0.,  1.],
+        [ 0.,  2.,  6.,  4.,  4.,  3.,  2.,  1.,  0.,  3.,  1.,  2.,  1.,  0.,
+          0.,  0.,  0.],
+        [ 3.,  5., 64., 63.,  7., 20.,  4.,  3.,  7., 13.,  5., 11., 22.,  9.,
+         11.,  4.,  6.],
+        [ 8.,  7., 62., 81., 11., 21.,  9.,  5.,  8.,  6., 10., 20., 14.,  6.,
+         14.,  3.,  5.],
+        [ 1.,  6., 22., 38.,  6.,  6.,  6.,  3.,  2.,  3.,  2.,  5.,  4.,  6.,
+          7.,  0.,  5.],
+        [ 0.,  3., 13., 33.,  5., 13.,  4.,  1.,  5.,  7.,  1.,  3.,  8.,  6.,
+         10.,  0.,  5.],
+        [ 6.,  4., 34., 44.,  7., 19., 14.,  4.,  1.,  8.,  2., 11., 15., 11.,
+          5.,  1.,  7.],
+        [ 1.,  0.,  9., 14.,  3.,  5.,  3.,  1.,  0.,  3.,  0.,  3.,  7.,  3.,
+          4.,  0.,  0.],
+        [ 0.,  0.,  3.,  4.,  2.,  1.,  1.,  2.,  1.,  1.,  0.,  1.,  1.,  1.,
+          0.,  0.,  0.],
+        [ 2.,  1., 14., 13.,  2.,  6.,  3.,  0.,  1.,  4.,  1.,  3.,  5.,  2.,
+          7.,  0.,  4.],
+        [ 0.,  0.,  5., 17.,  3.,  5.,  1.,  0.,  3.,  6.,  4.,  5.,  7.,  5.,
+          7.,  1.,  2.],
+        [ 0.,  1.,  6., 13.,  2.,  6.,  0.,  1.,  4.,  3.,  0.,  2.,  7.,  4.,
+          4.,  0.,  4.],
+        [ 0.,  2., 12., 14.,  4.,  5.,  7.,  0.,  3.,  7.,  1.,  6.,  5.,  5.,
+          3.,  1.,  0.],
+        [ 1.,  0.,  4., 11.,  9.,  3.,  5.,  1.,  5.,  7.,  1.,  3.,  5.,  3.,
+          1.,  1.,  0.],
+        [ 4.,  0.,  6., 17.,  3.,  5.,  4.,  0.,  4.,  2.,  3.,  4.,  5.,  4.,
+          7.,  1.,  5.],
+        [ 1.,  1., 17., 12.,  2.,  3.,  4.,  2.,  4.,  5.,  0.,  4.,  6.,  1.,
+          4.,  2.,  2.],
+        [ 0.,  1., 11., 16.,  3.,  6.,  3.,  1.,  3.,  3.,  5.,  1.,  3.,  1.,
+          2.,  1.,  4.]])
+tensor([0.0909, 0.0690, 0.2490, 0.2793, 0.0492, 0.1111, 0.0725, 0.0179, 0.0556,
+        0.0588, 0.0563, 0.0351, 0.0667, 0.0500, 0.0946, 0.0286, 0.0625])

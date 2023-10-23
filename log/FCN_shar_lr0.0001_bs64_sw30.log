@@ -1,0 +1,405 @@
+Namespace(cuda=0, rep=5, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+Namespace(cuda=0, rep=5, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Namespace(cuda=0, rep=5, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+Namespace(cuda=0, rep=5, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+Namespace(cuda=0, rep=5, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Train Loss     : 2.2385	 | 	Train Accuracy     : 28.6014
+
+Val Loss     : 1.8665	 | 	Val Accuracy     : 40.9886
+
+
+Epoch : 1
+Train Loss     : 1.6722	 | 	Train Accuracy     : 45.1601
+
+Val Loss     : 1.6114	 | 	Val Accuracy     : 48.9734
+
+
+Epoch : 2
+Train Loss     : 1.4523	 | 	Train Accuracy     : 51.2195
+
+Val Loss     : 1.4189	 | 	Val Accuracy     : 54.6768
+
+
+Epoch : 3
+Train Loss     : 1.3181	 | 	Train Accuracy     : 56.1357
+
+Val Loss     : 1.2671	 | 	Val Accuracy     : 56.6540
+
+
+Epoch : 4
+Train Loss     : 1.1547	 | 	Train Accuracy     : 62.7858
+
+Val Loss     : 1.1594	 | 	Val Accuracy     : 62.4335
+
+
+Epoch : 5
+Train Loss     : 1.0861	 | 	Train Accuracy     : 64.2530
+
+Val Loss     : 1.0678	 | 	Val Accuracy     : 65.3992
+
+
+Epoch : 6
+Train Loss     : 1.0238	 | 	Train Accuracy     : 66.4634
+
+Val Loss     : 0.9619	 | 	Val Accuracy     : 71.4068
+
+
+Epoch : 7
+Train Loss     : 0.9465	 | 	Train Accuracy     : 69.7218
+
+Val Loss     : 0.9009	 | 	Val Accuracy     : 72.8517
+
+
+Epoch : 8
+Train Loss     : 0.9032	 | 	Train Accuracy     : 70.8460
+
+Val Loss     : 0.8443	 | 	Val Accuracy     : 74.4487
+
+
+Epoch : 9
+Train Loss     : 0.8180	 | 	Train Accuracy     : 74.2759
+
+Val Loss     : 0.8036	 | 	Val Accuracy     : 76.2738
+
+Test Loss     : 0.8406	 | 	Test Accuracy     : 72.1850
+
+tensor([[ 1.,  0.,  6.,  4.,  0.,  2.,  4.,  0.,  0.,  0.,  1.,  1.,  1.,  0.,
+          1.,  1.,  0.],
+        [ 0.,  1.,  9.,  5.,  1.,  3.,  4.,  0.,  0.,  0.,  1.,  1.,  0.,  2.,
+          0.,  2.,  1.],
+        [ 5.,  5., 77., 38., 11.,  9., 31.,  4.,  3., 12.,  7.,  4.,  8., 10.,
+         12., 12., 10.],
+        [ 6., 10., 51., 68., 15., 11., 40., 10.,  4.,  8.,  6.,  6.,  9.,  7.,
+         16., 12.,  9.],
+        [ 0.,  6., 27., 16.,  5.,  5.,  9.,  4.,  6.,  2.,  7.,  2.,  5.,  5.,
+         10.,  5.,  7.],
+        [ 1.,  3., 15., 20.,  3., 10., 14.,  1.,  3.,  5.,  5.,  1.,  4.,  9.,
+          7.,  5., 10.],
+        [ 2.,  8., 39., 28.,  8.,  8., 32., 10.,  4.,  6.,  9.,  3.,  8., 10.,
+         10.,  6.,  4.],
+        [ 0.,  1.,  9.,  5.,  5.,  3., 10.,  4.,  1.,  2.,  1.,  2.,  4.,  1.,
+          4.,  3.,  1.],
+        [ 0.,  0.,  4.,  5.,  1.,  0.,  1.,  1.,  1.,  1.,  0.,  0.,  1.,  1.,
+          1.,  0.,  1.],
+        [ 1.,  1., 14.,  9.,  8.,  1., 11.,  0.,  4.,  6.,  2.,  1.,  1.,  2.,
+          5.,  2.,  0.],
+        [ 1.,  2., 13., 16.,  4.,  1.,  8.,  2.,  0.,  2.,  7.,  0.,  3.,  4.,
+          4.,  3.,  1.],
+        [ 0.,  1., 10.,  9.,  1.,  0.,  4.,  1.,  1.,  3.,  3.,  2.,  4.,  3.,
+          8.,  1.,  6.],
+        [ 1.,  1., 14.,  9.,  4.,  3., 12.,  3.,  2.,  5.,  0.,  1.,  6.,  2.,
+          2.,  4.,  6.],
+        [ 2.,  3.,  7.,  7.,  4.,  7.,  6.,  2.,  3.,  3.,  3.,  0.,  3.,  6.,
+          3.,  1.,  1.],
+        [ 2.,  3.,  7., 12.,  1.,  1., 12.,  9.,  0.,  1.,  2.,  1.,  7.,  3.,
+          5.,  3.,  3.],
+        [ 2.,  1., 16., 10.,  1.,  5.,  6.,  2.,  6.,  1.,  3.,  2.,  2.,  2.,
+          4.,  7.,  2.],
+        [ 0.,  1., 10., 10.,  4.,  2.,  7.,  1.,  4.,  1.,  1.,  5.,  3.,  3.,
+          4.,  3.,  4.]])
+tensor([0.0455, 0.0333, 0.2984, 0.2361, 0.0413, 0.0862, 0.1641, 0.0714, 0.0556,
+        0.0882, 0.0986, 0.0351, 0.0800, 0.0984, 0.0694, 0.0972, 0.0635])
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Train Loss     : 2.2385	 | 	Train Accuracy     : 28.6014
+
+Val Loss     : 1.8665	 | 	Val Accuracy     : 40.9886
+
+
+Epoch : 1
+Train Loss     : 1.6722	 | 	Train Accuracy     : 45.1601
+
+Val Loss     : 1.6114	 | 	Val Accuracy     : 48.9734
+
+
+Epoch : 2
+Train Loss     : 1.4523	 | 	Train Accuracy     : 51.2195
+
+Val Loss     : 1.4189	 | 	Val Accuracy     : 54.6768
+
+
+Epoch : 3
+Train Loss     : 1.3181	 | 	Train Accuracy     : 56.1357
+
+Val Loss     : 1.2671	 | 	Val Accuracy     : 56.6540
+
+
+Epoch : 4
+Train Loss     : 1.1547	 | 	Train Accuracy     : 62.7858
+
+Val Loss     : 1.1594	 | 	Val Accuracy     : 62.4335
+
+
+Epoch : 5
+Train Loss     : 1.0861	 | 	Train Accuracy     : 64.2530
+
+Val Loss     : 1.0678	 | 	Val Accuracy     : 65.3992
+
+
+Epoch : 6
+Train Loss     : 1.0238	 | 	Train Accuracy     : 66.4634
+
+Val Loss     : 0.9619	 | 	Val Accuracy     : 71.4068
+
+
+Epoch : 7
+Train Loss     : 0.9465	 | 	Train Accuracy     : 69.7218
+
+Val Loss     : 0.9009	 | 	Val Accuracy     : 72.8517
+
+
+Epoch : 8
+Train Loss     : 0.9032	 | 	Train Accuracy     : 70.8460
+
+Val Loss     : 0.8443	 | 	Val Accuracy     : 74.4487
+
+
+Epoch : 9
+Train Loss     : 0.8180	 | 	Train Accuracy     : 74.2759
+
+Val Loss     : 0.8036	 | 	Val Accuracy     : 76.2738
+
+Test Loss     : 0.8406	 | 	Test Accuracy     : 72.1850
+
+tensor([[ 1.,  0.,  6.,  4.,  0.,  2.,  4.,  0.,  0.,  0.,  1.,  1.,  1.,  0.,
+          1.,  1.,  0.],
+        [ 0.,  1.,  9.,  5.,  1.,  3.,  4.,  0.,  0.,  0.,  1.,  1.,  0.,  2.,
+          0.,  2.,  1.],
+        [ 5.,  5., 77., 38., 11.,  9., 31.,  4.,  3., 12.,  7.,  4.,  8., 10.,
+         12., 12., 10.],
+        [ 6., 10., 51., 68., 15., 11., 40., 10.,  4.,  8.,  6.,  6.,  9.,  7.,
+         16., 12.,  9.],
+        [ 0.,  6., 27., 16.,  5.,  5.,  9.,  4.,  6.,  2.,  7.,  2.,  5.,  5.,
+         10.,  5.,  7.],
+        [ 1.,  3., 15., 20.,  3., 10., 14.,  1.,  3.,  5.,  5.,  1.,  4.,  9.,
+          7.,  5., 10.],
+        [ 2.,  8., 39., 28.,  8.,  8., 32., 10.,  4.,  6.,  9.,  3.,  8., 10.,
+         10.,  6.,  4.],
+        [ 0.,  1.,  9.,  5.,  5.,  3., 10.,  4.,  1.,  2.,  1.,  2.,  4.,  1.,
+          4.,  3.,  1.],
+        [ 0.,  0.,  4.,  5.,  1.,  0.,  1.,  1.,  1.,  1.,  0.,  0.,  1.,  1.,
+          1.,  0.,  1.],
+        [ 1.,  1., 14.,  9.,  8.,  1., 11.,  0.,  4.,  6.,  2.,  1.,  1.,  2.,
+          5.,  2.,  0.],
+        [ 1.,  2., 13., 16.,  4.,  1.,  8.,  2.,  0.,  2.,  7.,  0.,  3.,  4.,
+          4.,  3.,  1.],
+        [ 0.,  1., 10.,  9.,  1.,  0.,  4.,  1.,  1.,  3.,  3.,  2.,  4.,  3.,
+          8.,  1.,  6.],
+        [ 1.,  1., 14.,  9.,  4.,  3., 12.,  3.,  2.,  5.,  0.,  1.,  6.,  2.,
+          2.,  4.,  6.],
+        [ 2.,  3.,  7.,  7.,  4.,  7.,  6.,  2.,  3.,  3.,  3.,  0.,  3.,  6.,
+          3.,  1.,  1.],
+        [ 2.,  3.,  7., 12.,  1.,  1., 12.,  9.,  0.,  1.,  2.,  1.,  7.,  3.,
+          5.,  3.,  3.],
+        [ 2.,  1., 16., 10.,  1.,  5.,  6.,  2.,  6.,  1.,  3.,  2.,  2.,  2.,
+          4.,  7.,  2.],
+        [ 0.,  1., 10., 10.,  4.,  2.,  7.,  1.,  4.,  1.,  1.,  5.,  3.,  3.,
+          4.,  3.,  4.]])
+tensor([0.0455, 0.0333, 0.2984, 0.2361, 0.0413, 0.0862, 0.1641, 0.0714, 0.0556,
+        0.0882, 0.0986, 0.0351, 0.0800, 0.0984, 0.0694, 0.0972, 0.0635])
+Training time is : 0:01:05.890150
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Train Loss     : 2.2385	 | 	Train Accuracy     : 28.6014
+
+Val Loss     : 1.8665	 | 	Val Accuracy     : 40.9886
+
+
+Epoch : 1
+Train Loss     : 1.6722	 | 	Train Accuracy     : 45.1601
+
+Val Loss     : 1.6114	 | 	Val Accuracy     : 48.9734
+
+
+Epoch : 2
+Train Loss     : 1.4523	 | 	Train Accuracy     : 51.2195
+
+Val Loss     : 1.4189	 | 	Val Accuracy     : 54.6768
+
+
+Epoch : 3
+Train Loss     : 1.3181	 | 	Train Accuracy     : 56.1357
+
+Val Loss     : 1.2671	 | 	Val Accuracy     : 56.6540
+
+
+Epoch : 4
+Train Loss     : 1.1547	 | 	Train Accuracy     : 62.7858
+
+Val Loss     : 1.1594	 | 	Val Accuracy     : 62.4335
+
+
+Epoch : 5
+Train Loss     : 1.0861	 | 	Train Accuracy     : 64.2530
+
+Val Loss     : 1.0678	 | 	Val Accuracy     : 65.3992
+
+
+Epoch : 6
+Train Loss     : 1.0238	 | 	Train Accuracy     : 66.4634
+
+Val Loss     : 0.9619	 | 	Val Accuracy     : 71.4068
+
+
+Epoch : 7
+Train Loss     : 0.9465	 | 	Train Accuracy     : 69.7218
+
+Val Loss     : 0.9009	 | 	Val Accuracy     : 72.8517
+
+
+Epoch : 8
+Train Loss     : 0.9032	 | 	Train Accuracy     : 70.8460
+
+Val Loss     : 0.8443	 | 	Val Accuracy     : 74.4487
+
+
+Epoch : 9
+Train Loss     : 0.8180	 | 	Train Accuracy     : 74.2759
+
+Val Loss     : 0.8036	 | 	Val Accuracy     : 76.2738
+
+Test Loss     : 0.8406	 | 	Test Accuracy     : 72.1850
+
+tensor([[ 1.,  0.,  6.,  4.,  0.,  2.,  4.,  0.,  0.,  0.,  1.,  1.,  1.,  0.,
+          1.,  1.,  0.],
+        [ 0.,  1.,  9.,  5.,  1.,  3.,  4.,  0.,  0.,  0.,  1.,  1.,  0.,  2.,
+          0.,  2.,  1.],
+        [ 5.,  5., 77., 38., 11.,  9., 31.,  4.,  3., 12.,  7.,  4.,  8., 10.,
+         12., 12., 10.],
+        [ 6., 10., 51., 68., 15., 11., 40., 10.,  4.,  8.,  6.,  6.,  9.,  7.,
+         16., 12.,  9.],
+        [ 0.,  6., 27., 16.,  5.,  5.,  9.,  4.,  6.,  2.,  7.,  2.,  5.,  5.,
+         10.,  5.,  7.],
+        [ 1.,  3., 15., 20.,  3., 10., 14.,  1.,  3.,  5.,  5.,  1.,  4.,  9.,
+          7.,  5., 10.],
+        [ 2.,  8., 39., 28.,  8.,  8., 32., 10.,  4.,  6.,  9.,  3.,  8., 10.,
+         10.,  6.,  4.],
+        [ 0.,  1.,  9.,  5.,  5.,  3., 10.,  4.,  1.,  2.,  1.,  2.,  4.,  1.,
+          4.,  3.,  1.],
+        [ 0.,  0.,  4.,  5.,  1.,  0.,  1.,  1.,  1.,  1.,  0.,  0.,  1.,  1.,
+          1.,  0.,  1.],
+        [ 1.,  1., 14.,  9.,  8.,  1., 11.,  0.,  4.,  6.,  2.,  1.,  1.,  2.,
+          5.,  2.,  0.],
+        [ 1.,  2., 13., 16.,  4.,  1.,  8.,  2.,  0.,  2.,  7.,  0.,  3.,  4.,
+          4.,  3.,  1.],
+        [ 0.,  1., 10.,  9.,  1.,  0.,  4.,  1.,  1.,  3.,  3.,  2.,  4.,  3.,
+          8.,  1.,  6.],
+        [ 1.,  1., 14.,  9.,  4.,  3., 12.,  3.,  2.,  5.,  0.,  1.,  6.,  2.,
+          2.,  4.,  6.],
+        [ 2.,  3.,  7.,  7.,  4.,  7.,  6.,  2.,  3.,  3.,  3.,  0.,  3.,  6.,
+          3.,  1.,  1.],
+        [ 2.,  3.,  7., 12.,  1.,  1., 12.,  9.,  0.,  1.,  2.,  1.,  7.,  3.,
+          5.,  3.,  3.],
+        [ 2.,  1., 16., 10.,  1.,  5.,  6.,  2.,  6.,  1.,  3.,  2.,  2.,  2.,
+          4.,  7.,  2.],
+        [ 0.,  1., 10., 10.,  4.,  2.,  7.,  1.,  4.,  1.,  1.,  5.,  3.,  3.,
+          4.,  3.,  4.]])
+tensor([0.0455, 0.0333, 0.2984, 0.2361, 0.0413, 0.0862, 0.1641, 0.0714, 0.0556,
+        0.0882, 0.0986, 0.0351, 0.0800, 0.0984, 0.0694, 0.0972, 0.0635])
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_shar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Train Loss     : 2.2385	 | 	Train Accuracy     : 28.6014
+
+Val Loss     : 1.8665	 | 	Val Accuracy     : 40.9886
+
+
+Epoch : 1
+Train Loss     : 1.6722	 | 	Train Accuracy     : 45.1601
+
+Val Loss     : 1.6114	 | 	Val Accuracy     : 48.9734
+
+
+Epoch : 2
+Train Loss     : 1.4523	 | 	Train Accuracy     : 51.2195
+
+Val Loss     : 1.4189	 | 	Val Accuracy     : 54.6768
+
+
+Epoch : 3
+Train Loss     : 1.3181	 | 	Train Accuracy     : 56.1357
+
+Val Loss     : 1.2671	 | 	Val Accuracy     : 56.6540
+
+
+Epoch : 4
+Train Loss     : 1.1547	 | 	Train Accuracy     : 62.7858
+
+Val Loss     : 1.1594	 | 	Val Accuracy     : 62.4335
+
+
+Epoch : 5
+Train Loss     : 1.0861	 | 	Train Accuracy     : 64.2530
+
+Val Loss     : 1.0678	 | 	Val Accuracy     : 65.3992
+
+
+Epoch : 6
+Train Loss     : 1.0238	 | 	Train Accuracy     : 66.4634
+
+Val Loss     : 0.9619	 | 	Val Accuracy     : 71.4068
+
+
+Epoch : 7
+Train Loss     : 0.9465	 | 	Train Accuracy     : 69.7218
+
+Val Loss     : 0.9009	 | 	Val Accuracy     : 72.8517
+
+
+Epoch : 8
+Train Loss     : 0.9032	 | 	Train Accuracy     : 70.8460
+
+Val Loss     : 0.8443	 | 	Val Accuracy     : 74.4487
+
+
+Epoch : 9
+Train Loss     : 0.8180	 | 	Train Accuracy     : 74.2759
+
+Val Loss     : 0.8036	 | 	Val Accuracy     : 76.2738
+
+Test Loss     : 0.8406	 | 	Test Accuracy     : 72.1850
+
+tensor([[ 1.,  0.,  6.,  4.,  0.,  2.,  4.,  0.,  0.,  0.,  1.,  1.,  1.,  0.,
+          1.,  1.,  0.],
+        [ 0.,  1.,  9.,  5.,  1.,  3.,  4.,  0.,  0.,  0.,  1.,  1.,  0.,  2.,
+          0.,  2.,  1.],
+        [ 5.,  5., 77., 38., 11.,  9., 31.,  4.,  3., 12.,  7.,  4.,  8., 10.,
+         12., 12., 10.],
+        [ 6., 10., 51., 68., 15., 11., 40., 10.,  4.,  8.,  6.,  6.,  9.,  7.,
+         16., 12.,  9.],
+        [ 0.,  6., 27., 16.,  5.,  5.,  9.,  4.,  6.,  2.,  7.,  2.,  5.,  5.,
+         10.,  5.,  7.],
+        [ 1.,  3., 15., 20.,  3., 10., 14.,  1.,  3.,  5.,  5.,  1.,  4.,  9.,
+          7.,  5., 10.],
+        [ 2.,  8., 39., 28.,  8.,  8., 32., 10.,  4.,  6.,  9.,  3.,  8., 10.,
+         10.,  6.,  4.],
+        [ 0.,  1.,  9.,  5.,  5.,  3., 10.,  4.,  1.,  2.,  1.,  2.,  4.,  1.,
+          4.,  3.,  1.],
+        [ 0.,  0.,  4.,  5.,  1.,  0.,  1.,  1.,  1.,  1.,  0.,  0.,  1.,  1.,
+          1.,  0.,  1.],
+        [ 1.,  1., 14.,  9.,  8.,  1., 11.,  0.,  4.,  6.,  2.,  1.,  1.,  2.,
+          5.,  2.,  0.],
+        [ 1.,  2., 13., 16.,  4.,  1.,  8.,  2.,  0.,  2.,  7.,  0.,  3.,  4.,
+          4.,  3.,  1.],
+        [ 0.,  1., 10.,  9.,  1.,  0.,  4.,  1.,  1.,  3.,  3.,  2.,  4.,  3.,
+          8.,  1.,  6.],
+        [ 1.,  1., 14.,  9.,  4.,  3., 12.,  3.,  2.,  5.,  0.,  1.,  6.,  2.,
+          2.,  4.,  6.],
+        [ 2.,  3.,  7.,  7.,  4.,  7.,  6.,  2.,  3.,  3.,  3.,  0.,  3.,  6.,
+          3.,  1.,  1.],
+        [ 2.,  3.,  7., 12.,  1.,  1., 12.,  9.,  0.,  1.,  2.,  1.,  7.,  3.,
+          5.,  3.,  3.],
+        [ 2.,  1., 16., 10.,  1.,  5.,  6.,  2.,  6.,  1.,  3.,  2.,  2.,  2.,
+          4.,  7.,  2.],
+        [ 0.,  1., 10., 10.,  4.,  2.,  7.,  1.,  4.,  1.,  1.,  5.,  3.,  3.,
+          4.,  3.,  4.]])
+tensor([0.0455, 0.0333, 0.2984, 0.2361, 0.0413, 0.0862, 0.1641, 0.0714, 0.0556,
+        0.0882, 0.0986, 0.0351, 0.0800, 0.0984, 0.0694, 0.0972, 0.0635])
+Training time is : 0:01:05.690247

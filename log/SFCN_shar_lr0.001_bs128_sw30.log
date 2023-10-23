@@ -1,0 +1,220 @@
+Namespace(cuda=0, rep=1, batch_size=128, n_epoch=30, lr=0.001, lr_cls=0.001, dataset='shar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='SFCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.75, thresh=0.5, eval=False, model_name='SFCN_shar_lr0.001_bs128_sw30')
+
+Epoch : 0
+Train Loss     : 1.9256	 | 	Train Accuracy     : 35.7660
+
+Val Loss     : 1.4316	 | 	Val Accuracy     : 50.1901
+
+
+Epoch : 1
+Train Loss     : 1.3398	 | 	Train Accuracy     : 53.8110
+
+Val Loss     : 1.0409	 | 	Val Accuracy     : 64.2586
+
+
+Epoch : 2
+Train Loss     : 1.0674	 | 	Train Accuracy     : 62.7858
+
+Val Loss     : 0.8878	 | 	Val Accuracy     : 70.4183
+
+
+Epoch : 3
+Train Loss     : 0.8792	 | 	Train Accuracy     : 70.4840
+
+Val Loss     : 0.8055	 | 	Val Accuracy     : 72.6236
+
+
+Epoch : 4
+Train Loss     : 0.7749	 | 	Train Accuracy     : 73.8377
+
+Val Loss     : 0.6765	 | 	Val Accuracy     : 79.1635
+
+
+Epoch : 5
+Train Loss     : 0.6880	 | 	Train Accuracy     : 77.5915
+
+Val Loss     : 0.6395	 | 	Val Accuracy     : 79.3156
+
+
+Epoch : 6
+Train Loss     : 0.6224	 | 	Train Accuracy     : 80.0495
+
+Val Loss     : 0.5718	 | 	Val Accuracy     : 80.8365
+
+
+Epoch : 7
+Train Loss     : 0.5746	 | 	Train Accuracy     : 81.9169
+
+Val Loss     : 0.5348	 | 	Val Accuracy     : 81.8251
+
+
+Epoch : 8
+Train Loss     : 0.5265	 | 	Train Accuracy     : 83.3651
+
+Val Loss     : 0.5163	 | 	Val Accuracy     : 83.6502
+
+
+Epoch : 9
+Train Loss     : 0.5140	 | 	Train Accuracy     : 83.6128
+
+Val Loss     : 0.4701	 | 	Val Accuracy     : 85.9316
+
+
+Epoch : 10
+Train Loss     : 0.4707	 | 	Train Accuracy     : 85.4611
+
+Val Loss     : 0.4726	 | 	Val Accuracy     : 85.0951
+
+
+Epoch : 11
+Train Loss     : 0.4217	 | 	Train Accuracy     : 86.9855
+
+Val Loss     : 0.4200	 | 	Val Accuracy     : 86.6920
+
+
+Epoch : 12
+Train Loss     : 0.3604	 | 	Train Accuracy     : 89.6341
+
+Val Loss     : 0.3772	 | 	Val Accuracy     : 89.0494
+
+
+Epoch : 13
+Train Loss     : 0.3703	 | 	Train Accuracy     : 88.8529
+
+Val Loss     : 0.4578	 | 	Val Accuracy     : 85.3992
+
+
+Epoch : 14
+Train Loss     : 0.3452	 | 	Train Accuracy     : 90.2630
+
+Val Loss     : 0.3714	 | 	Val Accuracy     : 88.4411
+
+
+Epoch : 15
+Train Loss     : 0.3251	 | 	Train Accuracy     : 90.2630
+
+Val Loss     : 0.3585	 | 	Val Accuracy     : 89.7338
+
+
+Epoch : 16
+Train Loss     : 0.2883	 | 	Train Accuracy     : 91.7683
+
+Val Loss     : 0.3467	 | 	Val Accuracy     : 89.4297
+
+
+Epoch : 17
+Train Loss     : 0.2850	 | 	Train Accuracy     : 91.6349
+
+Val Loss     : 0.3270	 | 	Val Accuracy     : 90.0380
+
+
+Epoch : 18
+Train Loss     : 0.2714	 | 	Train Accuracy     : 91.9398
+
+Val Loss     : 0.3427	 | 	Val Accuracy     : 89.3536
+
+
+Epoch : 19
+Train Loss     : 0.2490	 | 	Train Accuracy     : 93.1212
+
+Val Loss     : 0.3322	 | 	Val Accuracy     : 90.3422
+
+
+Epoch : 20
+Train Loss     : 0.2296	 | 	Train Accuracy     : 93.8262
+
+Val Loss     : 0.3266	 | 	Val Accuracy     : 89.8859
+
+
+Epoch : 21
+Train Loss     : 0.2220	 | 	Train Accuracy     : 94.2835
+
+Val Loss     : 0.2736	 | 	Val Accuracy     : 92.3194
+
+
+Epoch : 22
+Train Loss     : 0.2033	 | 	Train Accuracy     : 94.7980
+
+Val Loss     : 0.3131	 | 	Val Accuracy     : 90.1901
+
+
+Epoch : 23
+Train Loss     : 0.1966	 | 	Train Accuracy     : 94.9314
+
+Val Loss     : 0.2617	 | 	Val Accuracy     : 92.4715
+
+
+Epoch : 24
+Train Loss     : 0.1928	 | 	Train Accuracy     : 94.8742
+
+Val Loss     : 0.2849	 | 	Val Accuracy     : 91.5589
+
+
+Epoch : 25
+Train Loss     : 0.1857	 | 	Train Accuracy     : 95.1982
+
+Val Loss     : 0.3311	 | 	Val Accuracy     : 89.9620
+
+
+Epoch : 26
+Train Loss     : 0.1711	 | 	Train Accuracy     : 95.5983
+
+Val Loss     : 0.3060	 | 	Val Accuracy     : 90.6464
+
+
+Epoch : 27
+Train Loss     : 0.1529	 | 	Train Accuracy     : 96.5320
+
+Val Loss     : 0.2646	 | 	Val Accuracy     : 92.5475
+
+
+Epoch : 28
+Train Loss     : 0.1560	 | 	Train Accuracy     : 96.2652
+
+Val Loss     : 0.2579	 | 	Val Accuracy     : 92.3954
+
+
+Epoch : 29
+Train Loss     : 0.1508	 | 	Train Accuracy     : 96.3986
+
+Val Loss     : 0.2648	 | 	Val Accuracy     : 92.5475
+
+Test Loss     : 0.2736	 | 	Test Accuracy     : 92.2094
+
+tensor([[ 1.,  1.,  3.,  2.,  2.,  2.,  5.,  0.,  0.,  0.,  2.,  1.,  1.,  1.,
+          0.,  1.,  0.],
+        [ 0.,  2.,  6.,  3.,  3.,  3.,  4.,  0.,  0.,  1.,  0.,  1.,  2.,  1.,
+          0.,  2.,  1.],
+        [ 2.,  6., 70., 36., 16., 10., 27.,  8.,  2., 13.,  8.,  6., 15., 12.,
+          8.,  4., 14.],
+        [ 8.,  7., 39., 71., 24., 23., 33.,  5.,  4.,  6., 13.,  9.,  8.,  5.,
+          8., 12., 15.],
+        [ 2.,  4., 18., 22., 18.,  6., 16.,  3.,  0.,  2.,  5.,  6.,  3.,  6.,
+          4.,  1.,  6.],
+        [ 1.,  3., 17., 21.,  4., 15., 12.,  2.,  1.,  6.,  5.,  1.,  5.,  7.,
+          7.,  4.,  6.],
+        [ 3.,  9., 22., 27., 14., 11., 42.,  5.,  1.,  8., 11.,  6., 11., 10.,
+          2.,  3.,  8.],
+        [ 1.,  0., 10., 10.,  2.,  4.,  8.,  1.,  0.,  1.,  2.,  2.,  4.,  5.,
+          1.,  1.,  4.],
+        [ 0.,  0.,  1.,  5.,  2.,  0.,  2.,  1.,  2.,  1.,  1.,  1.,  1.,  1.,
+          0.,  0.,  0.],
+        [ 0.,  2., 11., 11.,  7.,  3.,  5.,  2.,  4.,  6.,  2.,  2.,  1.,  4.,
+          3.,  2.,  3.],
+        [ 0.,  0.,  5., 10.,  4.,  4.,  9.,  5.,  0.,  4., 16.,  1.,  4.,  4.,
+          2.,  1.,  2.],
+        [ 1.,  0.,  5., 12.,  4.,  3.,  1.,  2.,  0.,  1.,  4.,  6.,  4.,  3.,
+          6.,  2.,  3.],
+        [ 1.,  0., 13., 12.,  5.,  5.,  8.,  2.,  1.,  4.,  4.,  3.,  6.,  5.,
+          2.,  1.,  3.],
+        [ 1.,  2.,  5.,  5.,  7.,  6.,  9.,  1.,  1.,  2.,  2.,  2.,  3.,  8.,
+          1.,  3.,  2.],
+        [ 1.,  1.,  7., 14.,  6.,  3.,  6.,  2.,  1.,  2.,  5.,  5.,  7.,  4.,
+          7.,  0.,  3.],
+        [ 1.,  0., 14.,  9.,  5.,  4.,  3.,  3.,  3.,  1.,  4.,  3.,  3.,  5.,
+          3.,  4.,  5.],
+        [ 0.,  1.,  5., 10.,  6.,  7.,  8.,  1.,  2.,  3.,  1.,  4.,  3.,  1.,
+          2.,  2.,  8.]])
+tensor([0.0455, 0.0690, 0.2724, 0.2448, 0.1475, 0.1282, 0.2176, 0.0179, 0.1111,
+        0.0882, 0.2254, 0.1053, 0.0800, 0.1333, 0.0946, 0.0571, 0.1250])
+Training time is : 0:10:29.662519

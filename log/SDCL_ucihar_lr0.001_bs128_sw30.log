@@ -1,0 +1,191 @@
+Namespace(cuda=0, rep=1, batch_size=128, n_epoch=30, lr=0.001, lr_cls=0.001, dataset='ucihar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='SDCL', logdir='log/', lambda1=1.0, device='Phones', tau=0.75, thresh=0.5, eval=False, model_name='SDCL_ucihar_lr0.001_bs128_sw30')
+
+Epoch : 0
+Train Loss     : 0.8609	 | 	Train Accuracy     : 60.5392
+
+Val Loss     : 0.6365	 | 	Val Accuracy     : 70.4490
+
+
+Epoch : 1
+Train Loss     : 0.5418	 | 	Train Accuracy     : 78.2935
+
+Val Loss     : 0.4396	 | 	Val Accuracy     : 83.2524
+
+
+Epoch : 2
+Train Loss     : 0.3699	 | 	Train Accuracy     : 86.4277
+
+Val Loss     : 0.2665	 | 	Val Accuracy     : 90.8374
+
+
+Epoch : 3
+Train Loss     : 0.2094	 | 	Train Accuracy     : 92.6471
+
+Val Loss     : 0.2314	 | 	Val Accuracy     : 90.5947
+
+
+Epoch : 4
+Train Loss     : 0.1740	 | 	Train Accuracy     : 93.7194
+
+Val Loss     : 0.1520	 | 	Val Accuracy     : 94.4175
+
+
+Epoch : 5
+Train Loss     : 0.2649	 | 	Train Accuracy     : 90.4259
+
+Val Loss     : 0.2238	 | 	Val Accuracy     : 92.7184
+
+
+Epoch : 6
+Train Loss     : 0.1858	 | 	Train Accuracy     : 93.3670
+
+Val Loss     : 0.2520	 | 	Val Accuracy     : 88.4102
+
+
+Epoch : 7
+Train Loss     : 0.1434	 | 	Train Accuracy     : 94.9295
+
+Val Loss     : 0.1577	 | 	Val Accuracy     : 94.2354
+
+
+Epoch : 8
+Train Loss     : 0.1413	 | 	Train Accuracy     : 94.8070
+
+Val Loss     : 0.1197	 | 	Val Accuracy     : 95.1456
+
+
+Epoch : 9
+Train Loss     : 0.0944	 | 	Train Accuracy     : 96.3848
+
+Val Loss     : 0.1726	 | 	Val Accuracy     : 93.3252
+
+
+Epoch : 10
+Train Loss     : 0.1191	 | 	Train Accuracy     : 95.5116
+
+Val Loss     : 0.1121	 | 	Val Accuracy     : 95.4490
+
+
+Epoch : 11
+Train Loss     : 0.1088	 | 	Train Accuracy     : 96.0018
+
+Val Loss     : 0.1247	 | 	Val Accuracy     : 94.5995
+
+
+Epoch : 12
+Train Loss     : 0.1153	 | 	Train Accuracy     : 95.7108
+
+Val Loss     : 0.2414	 | 	Val Accuracy     : 90.7767
+
+
+Epoch : 13
+Train Loss     : 0.1223	 | 	Train Accuracy     : 95.3125
+
+Val Loss     : 0.0975	 | 	Val Accuracy     : 95.7524
+
+
+Epoch : 14
+Train Loss     : 0.0859	 | 	Train Accuracy     : 97.0895
+
+Val Loss     : 0.0909	 | 	Val Accuracy     : 96.5413
+
+
+Epoch : 15
+Train Loss     : 0.1735	 | 	Train Accuracy     : 93.3364
+
+Val Loss     : 0.1740	 | 	Val Accuracy     : 93.6286
+
+
+Epoch : 16
+Train Loss     : 0.1236	 | 	Train Accuracy     : 95.2512
+
+Val Loss     : 0.1227	 | 	Val Accuracy     : 95.0850
+
+
+Epoch : 17
+Train Loss     : 0.1005	 | 	Train Accuracy     : 96.2316
+
+Val Loss     : 0.1097	 | 	Val Accuracy     : 95.2063
+
+
+Epoch : 18
+Train Loss     : 0.1122	 | 	Train Accuracy     : 96.0478
+
+Val Loss     : 0.0973	 | 	Val Accuracy     : 96.1165
+
+
+Epoch : 19
+Train Loss     : 0.1142	 | 	Train Accuracy     : 96.0784
+
+Val Loss     : 0.0947	 | 	Val Accuracy     : 96.0558
+
+
+Epoch : 20
+Train Loss     : 0.0860	 | 	Train Accuracy     : 96.7831
+
+Val Loss     : 0.0958	 | 	Val Accuracy     : 96.2985
+
+
+Epoch : 21
+Train Loss     : 0.0849	 | 	Train Accuracy     : 97.0741
+
+Val Loss     : 0.0871	 | 	Val Accuracy     : 96.3592
+
+
+Epoch : 22
+Train Loss     : 0.0858	 | 	Train Accuracy     : 96.5533
+
+Val Loss     : 0.0787	 | 	Val Accuracy     : 96.6626
+
+
+Epoch : 23
+Train Loss     : 0.0756	 | 	Train Accuracy     : 97.4112
+
+Val Loss     : 0.0870	 | 	Val Accuracy     : 96.6019
+
+
+Epoch : 24
+Train Loss     : 0.1017	 | 	Train Accuracy     : 96.4461
+
+Val Loss     : 0.1350	 | 	Val Accuracy     : 95.3883
+
+
+Epoch : 25
+Train Loss     : 0.1112	 | 	Train Accuracy     : 95.7721
+
+Val Loss     : 0.0934	 | 	Val Accuracy     : 96.2379
+
+
+Epoch : 26
+Train Loss     : 0.0856	 | 	Train Accuracy     : 96.8290
+
+Val Loss     : 0.0802	 | 	Val Accuracy     : 96.9660
+
+
+Epoch : 27
+Train Loss     : 0.0761	 | 	Train Accuracy     : 97.2580
+
+Val Loss     : 0.0824	 | 	Val Accuracy     : 96.5413
+
+
+Epoch : 28
+Train Loss     : 0.0622	 | 	Train Accuracy     : 97.7941
+
+Val Loss     : 0.0707	 | 	Val Accuracy     : 97.0874
+
+
+Epoch : 29
+Train Loss     : 0.0627	 | 	Train Accuracy     : 97.8094
+
+Val Loss     : 0.0869	 | 	Val Accuracy     : 96.9053
+
+Test Loss     : 0.0810	 | 	Test Accuracy     : 96.9417
+
+tensor([[77., 41., 42., 57., 53., 57.],
+        [55., 61., 34., 51., 42., 54.],
+        [36., 42., 49., 55., 45., 45.],
+        [60., 47., 36., 72., 85., 79.],
+        [54., 39., 55., 63., 80., 91.],
+        [58., 65., 48., 65., 75., 92.]])
+tensor([0.2355, 0.2054, 0.1801, 0.1900, 0.2094, 0.2283])
+Training time is : 3:59:16.888031

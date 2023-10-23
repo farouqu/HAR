@@ -1,0 +1,72 @@
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='hhar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_hhar_lr0.0001_bs64_sw30')
+Namespace(cuda=0, rep=1, batch_size=64, n_epoch=10, lr=0.0001, lr_cls=0.001, dataset='hhar', n_feature=77, len_sw=30, n_class=18, cases='random', split_ratio=0.2, target_domain='0', backbone='FCN', logdir='log/', lambda1=1.0, device='Phones', tau=0.5, thresh=1.0, eval=False, model_name='FCN_hhar_lr0.0001_bs64_sw30')
+
+Epoch : 0
+Train Loss     : 0.6711	 | 	Train Accuracy     : 74.9346
+
+Val Loss     : 0.3799	 | 	Val Accuracy     : 86.0911
+
+
+Epoch : 1
+Train Loss     : 0.3761	 | 	Train Accuracy     : 85.1685
+
+Val Loss     : 0.2655	 | 	Val Accuracy     : 89.3176
+
+
+Epoch : 2
+Train Loss     : 0.3117	 | 	Train Accuracy     : 87.2110
+
+Val Loss     : 0.2391	 | 	Val Accuracy     : 90.3532
+
+
+Epoch : 3
+Train Loss     : 0.2855	 | 	Train Accuracy     : 88.0754
+
+Val Loss     : 0.2253	 | 	Val Accuracy     : 90.9091
+
+
+Epoch : 4
+Train Loss     : 0.2631	 | 	Train Accuracy     : 88.9916
+
+Val Loss     : 0.2110	 | 	Val Accuracy     : 90.8110
+
+
+Epoch : 5
+Train Loss     : 0.2478	 | 	Train Accuracy     : 89.3761
+
+Val Loss     : 0.2217	 | 	Val Accuracy     : 90.8546
+
+
+Epoch : 6
+Train Loss     : 0.2400	 | 	Train Accuracy     : 89.6815
+
+Val Loss     : 0.2503	 | 	Val Accuracy     : 89.8300
+
+
+Epoch : 7
+Train Loss     : 0.2300	 | 	Train Accuracy     : 90.0633
+
+Val Loss     : 0.1901	 | 	Val Accuracy     : 91.5413
+
+
+Epoch : 8
+Train Loss     : 0.2242	 | 	Train Accuracy     : 90.4041
+
+Val Loss     : 0.1977	 | 	Val Accuracy     : 91.5958
+
+
+Epoch : 9
+Train Loss     : 0.2179	 | 	Train Accuracy     : 90.6959
+
+Val Loss     : 0.1996	 | 	Val Accuracy     : 91.5086
+
+Test Loss     : 0.2165	 | 	Test Accuracy     : 91.0621
+
+tensor([[318., 325., 299., 353., 201., 318.],
+        [349., 415., 387., 392., 231., 376.],
+        [304., 325., 344., 346., 206., 316.],
+        [368., 393., 367., 437., 242., 383.],
+        [326., 318., 299., 348., 201., 349.],
+        [264., 294., 312., 308., 174., 280.]])
+tensor([0.1753, 0.1930, 0.1869, 0.1995, 0.1092, 0.1716])
+Training time is : 2:49:45.509592

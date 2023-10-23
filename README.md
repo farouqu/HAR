@@ -6,7 +6,7 @@ Spatio-Temporal Spiking Neural Networks](https://arxiv.org/pdf/2212.02233.pdf).
 
 We made some modifications to reproduce the results. All original credits go to the authors of the work.
 
-[Original repo link:](https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR)
+[Original repo](https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR)
 
 ## Installation and usage
 
@@ -71,7 +71,7 @@ The `--tau` specifies the decay factor in LIF neurons (Sec 3.3 in paper).
 
 ## Acknowledgement
 
-Our work is a reproducibility experiment based on the [Original repo link:](https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR) work.
+Our work is a reproducibility experiment based on the [SNN_HAR](https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR) work.
 
 Paper link: [Wearable-based Human Activity Recognition with
 Spatio-Temporal Spiking Neural Networks](https://arxiv.org/pdf/2212.02233.pdf).

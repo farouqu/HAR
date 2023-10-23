@@ -3,7 +3,7 @@
 models=('SFCN' 'SDCL' )
 datasets=('ucihar' 'shar' 'hhar')
 rep=2
-epochs=30
+epochs=60
 batch_size=128
 
 for dataset in "${datasets[@]}"; do

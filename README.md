@@ -4,6 +4,8 @@ Unofficial Pytorch implementation of Spiking Neural Networks for Human Activity 
 Paper link: [Wearable-based Human Activity Recognition with
 Spatio-Temporal Spiking Neural Networks](https://arxiv.org/pdf/2212.02233.pdf).
 
+Report available here: [HAR Report](/report/HAR_Report.pdf)
+
 We made some modifications to reproduce the results. All original credits go to the authors of the work.
 
 [Original repo](https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR)

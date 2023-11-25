@@ -1,9 +1,9 @@
 #!/bin/bash
 
-models=('FCN' 'DCL' 'LSTM' 'Transformer')
+models=('FCN' 'DCL')
 datasets=('ucihar' 'shar' 'hhar')
-rep=2
-epochs=30
+rep=1
+epochs=60
 batch_size=128
 
 for dataset in "${datasets[@]}"; do

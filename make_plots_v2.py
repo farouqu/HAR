@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -26,7 +27,7 @@ def plot_csv_split(csv_path, output_folder):
 def plot_df(df, run_number, output_folder, suffix=''):
     plt.figure(figsize=(12, 6))
 
-    # Plot Train Accuracy and Val Accuracy
+    # # Plot Train Accuracy and Val Accuracy
     plt.plot(df['Epoch'], df['Train Accuracy'], label='Train Accuracy')
     plt.plot(df['Epoch'], df['Val Accuracy'], label='Validation Accuracy')
     plt.title(f'Run {run_number} - Accuracy{suffix}')
